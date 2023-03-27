@@ -242,12 +242,14 @@ body {
   }
 }
 
+/* Responsiveness  */
+
 @media (max-width: 1050px) {
   .popup-content {
     width: 30%;
   }
   .feedbackSection button {
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     margin: 1.5vh auto;
   }
   .popupTitle img {
@@ -263,23 +265,9 @@ body {
   .popup-content {
     width: 40%;
   }
-  .feedbackSection button {
-    padding: 1rem 3rem;
-    margin: 1.5vh auto;
-  }
-  .popupTitle img {
-    width: 3rem;
-    padding-top: 1vh;
-  }
-  .popupTitle p {
-    width: 70%;
-  }
 }
 
 @media (max-width: 820px) {
-  .popup-content {
-    width: 40%;
-  }
   .popupTitle img {
     width: 2.5rem;
     padding-top: 1vh;
