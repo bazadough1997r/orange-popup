@@ -25,3 +25,11 @@ window.addEventListener("click", (event) => {
     popup.style.display = "none";
   }
 });
+
+// File downloader
+const downloadFile = () => {
+  var downloadLink = document.createElement("a");
+  downloadLink.href = "the file url";
+  downloadLink.download = "testReceipt";
+  downloadLink.click();
+};
