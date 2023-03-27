@@ -25,6 +25,23 @@
   align-items: center;
 }
 
+.half-circle {
+  position: absolute;
+  top: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #434343;
+}
+
+.left {
+  left: -12px;
+}
+
+.right {
+  right: -12px;
+}
+
 .popupTitle {
   display: flex;
   flex-direction: column;
@@ -49,43 +66,45 @@
 }
 
 .paymentDetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1.5rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0px;
 }
 
 .paymentDetails p {
-    margin: 0px;
+  margin: 0px;
 }
 
 .orderNumber {
-    padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .subTitle {
-    color: #666666;
-    font-family: Helvetica Neue, Regular;
-    font-size: 14px;
-    padding-bottom: .3rem;
-    letter-spacing: 0.36px;
+  color: #666666;
+  font-family: Helvetica Neue, Regular;
+  font-size: 14px;
+  padding-bottom: 0.3rem;
+  letter-spacing: 0.36px;
+  margin: 0px;
+  /*  */
 }
 
 .orderNumberP {
-    color: #FF790E;
-    font-family: Helvetica Neue;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1.28px;
+  color: #ff790e;
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.28px;
 }
 
 .deliveryTimeP {
-    color: #000000;
-    font-family: Helvetica Neue;
-    font-weight: bold;
-    letter-spacing: 0.4px;
+  color: #000000;
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  letter-spacing: 0.4px;
 }
 
 .downloadButton {
@@ -105,6 +124,54 @@
   font-family: Helvetica Neue, Regular;
   color: #cd3c14;
   text-decoration: underline;
+  font-size: 14px;
+}
+
+.feedbackSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feedbackSection hr {
+  border: none;
+  border-top: 1px dashed #707070;
+  margin: 1rem auto;
+  width: 80%;
+  opacity: 1;
+  margin: 1rem 0px;
+}
+
+.feedbackSection .feedbackIntro {
+  letter-spacing: -0.36px;
+  color: #000000;
+  opacity: 1;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  margin: 0px 0px 1.5rem 0px;
+}
+
+.feedbackSection .giveUsFeedback {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.48px;
+  color: #000000;
+  opacity: 1;
+  margin: 0px 0px 0.5rem 0px;
+}
+
+.feedbackSection button {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  opacity: 1;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1rem 5rem;
+  font-family: Helvetica Neue;
+  margin: 1.5rem auto;
   font-size: 14px;
 }
 
