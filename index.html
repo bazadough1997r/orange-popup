@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Orange Pop-up</title>
+  </head>
+  <body>
+    <button class="button" id="open-popup">Open Pop-up</button>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <div class="popupContainer">
+          <div class="popupTitle">
+            <img src="./assets/check.png" alt="check" />
+            <p>Your order has been placed successfully</p>
+          </div>
+          <div class="paymentDetails">
+            <div class="orderNumber">
+              <p class="subTitle">Order Number</p>
+              <p  class="orderNumberP">PX0934557</p>
+            </div>
+            <div class="deliveryTime"> 
+              <p class="subTitle">Excepted Delivery Day</p>
+              <p class="deliveryTimeP">Friday 30.12.2023</p>
+            </div>
+          </div>
+          <div class="downloadButton">
+            <img src="./assets/download.png" alt="download" />
+            <p>Download your Receipt</p>
+          </div>
+          <div class="feedbackSection">
+            <!-- horizontal line  -->
+            <p>
+              Now you can start tracking your order and you can check the
+              summary that was sent to your email.
+            </p>
+            <h5>Give Us a feedback!</h5>
+            <p>it helps us grow</p>
+            <button>Participate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
